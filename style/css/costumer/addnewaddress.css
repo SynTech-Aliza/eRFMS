@@ -1,0 +1,117 @@
+
+.main-container{
+	width: (100% - 250px);
+	padding: 15px;
+	background-size: cover;
+	transition: 0.3s;
+}
+
+.main-container{
+	width: (100% - 70px);
+}
+
+.main-container .card{
+	z-index: 1;
+	width: 70%;
+	display: flex;
+	margin: 10px auto;
+	background:#fff;
+}
+
+.edit_name p{
+	font-size: 20px;
+	padding-left: 20px;
+	color:#000;
+	font-family: Helvetica;
+}
+
+.edit_name .edit{
+	color:#f4623a;
+	padding-right: 30px;
+}
+
+.edit_name button{
+	text-align: center;
+	background:none;
+	color: #f4623a;
+	border: none;
+	font-size: 20px;
+	cursor: pointer;
+	position: absolute;
+	margin: -44.5px 955px;
+}
+
+.form_name{
+	display: block;
+	background: #e2efe1;
+	height: auto;
+	width: 1043px;
+}
+
+.form_name input{
+	margin: 10px 15px;
+	height: 30px;
+	outline:none;
+	padding-left: 10px;
+	font-size: 15px;
+	border: none;
+}
+.region{
+	width: 220px;
+}
+
+.province{
+	width: 200px;
+}
+
+.city{
+	width: 220px;
+}
+
+.barangay{
+	width: 222px;
+}
+
+.contact_number{
+	width: 300px;
+}
+.email_address{
+	width: 320px;
+}
+.postal_code{
+	width: 250px;
+}
+
+.select_option{
+	margin: 10px 15px;
+	height: 30px;
+	outline:none;
+	padding-left: 10px;
+	font-size: 15px;
+	border: none;
+	width: 227.5px;
+	appearance: none;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.detailed_address{
+	margin: 10px 15px;
+	height: 100px;
+	outline:none;
+	padding-left: 10px;
+	font-size: 15px;
+	border: none;
+	width: 1002px;
+	font-family: Arial;
+	padding-top: 10px;
+}

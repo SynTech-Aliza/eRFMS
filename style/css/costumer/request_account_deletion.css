@@ -1,0 +1,77 @@
+
+
+.main-container{
+	width: (100% - 250px);
+	padding: 15px;
+	background-size: cover;
+	transition: 0.3s;
+}
+
+.main-container{
+	width: (100% - 70px);
+}
+
+.main-container .card{
+	z-index: 1;
+	width: 70%;
+	display: flex;
+	margin: 10px auto;
+	background:#fff;
+}
+
+.account_deletion p{
+	font-size: 20px;
+	padding-left: 20px;
+	color:#000;
+	font-family: Helvetica;
+}
+
+.account_deletion .edit{
+	color:#f4623a;
+	padding-right: 30px;
+}
+
+
+
+.form_account_deletion {
+	display: block;
+	background: #e2efe1;
+	height: 115px;
+	width: 1043px;
+	padding-top: 5px;
+}
+
+.form_account_deletion p{
+	font-size: 17px;
+	padding-right: 10px;
+}
+
+
+.form_account_deletion .delete{
+	text-align: center;
+	background:#f4623a;
+	border: none;
+	font-size: 15px;
+	cursor: pointer;
+	margin: 0px 15px;
+	padding: 5px 10px;
+	color: #fff;
+}
+.form_account_deletion .delete a{
+	text-decoration: none;
+	color: #fff;
+}
+.form_account_deletion .cancel{
+	text-align: center;
+	background:#fff;
+	border: none;
+	font-size: 15px;
+	cursor: pointer;
+	padding: 5px 10px;
+	color: #000;
+}
+
+.form_account_deletion .cancel a{
+	text-decoration: none;
+	color: #000;
+}

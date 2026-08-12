@@ -1,0 +1,81 @@
+
+.main-container{
+	width: (100% - 250px);
+	padding: 15px;
+	background-size: cover;
+	transition: 0.3s;
+}
+
+.main-container{
+	width: (100% - 70px);
+}
+
+.main-container .card{
+	z-index: 1;
+	width: 70%;
+	display: flex;
+	margin: 10px auto;
+	background:#fff;
+}
+
+.payment_option p{
+	font-size: 20px;
+	padding-left: 20px;
+	color:#000;
+	font-family: Helvetica;
+}
+
+.payment_option .back{
+	color:#f4623a;
+	padding-right: 20px;
+}
+
+.payment_choice table{
+	width: 100%;
+}
+
+.button_option{
+	display: block;
+	width: 1043px;
+	font-size: 17px;
+	font-family: sans-serif;
+}
+.button_option button{
+	background: #fff;
+	width: 300px;
+	text-align: left;
+	font-size: 17px;
+	border: 1px solid gray;
+	padding: 15px 15px;
+	margin-left: 25px;
+	cursor: pointer;
+	font-family: Helvetica;;
+}
+.button_option .icon-truck{
+	color: #f4623a;
+	padding-right: 5px;
+	font-size: 20px;
+}
+
+.button_option button:hover{
+	background: #2f323a;
+	color: #fff;
+}
+
+.button_option .icon-creditcard{
+	color: #f4623a;
+	padding-right: 5px;
+	font-size: 17px;
+}
+
+.button_option .icon-mobile{
+	color: #f4623a;
+	padding-right: 5px;
+	font-size: 22px;
+}
+
+.button_option .icon-money{
+	color: #f4623a;
+	padding-right: 5px;
+	font-size: 20px;
+}

@@ -1,0 +1,136 @@
+.main-container{
+	width: (100% - 250px);
+	margin-top: 70px;
+	margin-left: 250px;
+	padding: 15px;
+	background-size: cover;
+	transition: 0.3s;
+	height: 680px;
+}
+
+.main-container{
+	width: (100% - 70px);
+	margin-left: 70px;
+}
+
+.main-container .card{
+	z-index: 1;
+	background: #fffafa;
+	width: 35%;
+	height: 550px;
+	margin:35px 550px;
+	border-radius: 10px;
+}
+
+.main-container .sub-header-menu{
+	z-index: 1;
+	background: #fff;
+	width:90.6%;
+	height: 50px;
+	display: flex;
+	top:90px;
+	margin-left:155px;
+	cursor: default;
+}
+
+.main-container .sub-header-menu ul{
+	display: flex;
+	margin-left: 20px;
+}
+
+.main-container .sub-header-menu ul li a{
+	background: #fff;
+	color:#000;
+	margin: 0px 2px;
+	font-size: 16px;
+	width: 34px;
+	height: 34px;
+	text-align: center;
+	border-right: 1px solid gray;
+	padding-right:5px;
+	transition:0.3s;
+	transition-property: background, color;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.main-container .sub-header-menu .active{
+	color: #4e4239;
+	text-align: center;
+}
+
+.main-container .card form{
+	margin: 40px 40px;
+	width: 415px;
+	height: 475px;
+	z-index: 1;
+	border: 1px solid #4e4239;
+	position: absolute;
+}
+.main-container .card h2{
+	color:#4e4239;
+	text-align: center;
+	margin: 50px auto;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 25px;
+}
+
+.main-container .card input{
+	margin: 10px auto;
+	background: none;
+	display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 300px;
+    padding: 10px;
+    outline: none;
+    font-size: 15px;
+}
+
+.main-container .card select{
+	margin: 10px auto;
+	background: none;
+	display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 300px;
+    padding: 10px;
+    outline: none;
+    font-size: 15px;
+    color: black;
+}
+
+.main-container .card option{
+	background: #fff;
+	color:black;
+}
+
+.main-container .card button{
+	margin: 35px auto;
+	padding: 10px;
+	text-align: center;
+  	background: rgb(89,73,63);
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+    width: 30%;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.main-container .card a{
+	text-decoration: none;
+	color: #fff;
+}
+.main-container .card .btns{
+	margin-left: 110px;
+}
+
+.main-container .card button:hover{
+	background-color: #f4623a;
+}
+
+.main-container .card .error{
+	text-align: center;
+	color: #FC000F;
+	margin-top: -20px;
+	font-size:18px;
+}

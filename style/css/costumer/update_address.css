@@ -1,0 +1,142 @@
+
+.main-container{
+	width: (100% - 250px);
+	padding: 15px;
+	background-size: cover;
+	transition: 0.3s;
+}
+
+.main-container{
+	width: (100% - 70px);
+}
+
+.main-container .card{
+	z-index: 1;
+	width: 70%;
+	display: flex;
+	margin: 10px auto;
+	background:#fff;
+}
+
+.edit_name p{
+	font-size: 20px;
+	padding-left: 20px;
+	color:#000;
+	font-family: Helvetica;
+}
+
+.edit_name .edit{
+	color:#f4623a;
+	padding-right: 30px;
+}
+
+.edit_name button{
+	text-align: center;
+	background:none;
+	color: #f4623a;
+	border: none;
+	font-size: 20px;
+	cursor: pointer;
+	position: absolute;
+	margin: -44.5px 955px;
+}
+
+.form_details{
+	display: block;
+	background: #fff;
+	height: auto;
+	width: 1043px;
+	font-family: Arial;
+}
+
+.arrow{
+	border: solid #808080;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3.5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+
+}
+
+.form_details .form_table1{
+	width: 1043px;
+	padding: 40px 40px;
+	background: #e2efe1;
+}
+
+.form_details .label{
+	width: 500px;
+	padding: 10px;
+}
+
+.userdetails{
+	margin-bottom: 10px;
+	background: red;
+}
+
+.form_details .data{
+	text-align: right;
+	padding: 10px;
+	padding-right: 29px;
+	color: #808080;
+}
+
+.form_details .edit_details1{
+	position: absolute;
+	font-size: 17px;
+	margin:20px 960px;
+}
+.form_details .edit_details1 a{
+	text-decoration: none;
+	color: #f4623a;
+}
+
+.form_details .form_table2{
+	width: 1043px;
+	padding: 40px 40px;
+	margin-top: 15px;
+	background: #e2efe1;
+}
+
+.form_details .edit_details2{
+	position: absolute;
+	font-size: 17px;
+	margin:30px 960px;
+}
+
+.form_details .edit_details2 a{
+	text-decoration: none;
+	color: #f4623a;
+}
+
+.form_details .form_table3{
+	width: 1043px;
+	padding: 5px 40px;
+	margin-top: 15px;
+	background: #e2efe1;
+}
+
+.form_details .form_table3 .default_switch{
+	font-size: 30px;
+	color: #f4623a;
+	margin-right: 80px;
+
+}
+
+.form_details .form_table4{
+	width: 1043px;
+	text-align: center;
+	padding: 5px 20px;
+	margin-top: 15px;
+	background: #e2efe1;
+}
+
+.form_details .form_table4 a{
+	text-decoration: none;
+	color: #f4623a;
+	cursor: pointer;
+	font-size: 17px;
+}

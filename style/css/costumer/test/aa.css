@@ -1,0 +1,377 @@
+.main-container{
+	width: (100% - 250px);
+	padding: 15px;
+	background-size: cover;
+	transition: 0.3s;
+}
+
+.main-container{
+	width: (100% - 70px);
+}
+
+.main-container .card{
+	z-index: 1;
+	width: 70%;
+	display: flex;
+	margin: 10px auto;
+	background:#fff;
+}
+.order_informations{
+	background: rgb(229, 232, 232);
+}
+
+.order_details p{
+	font-size: 20px;
+	padding-left: 20px;
+	color:#000;
+	font-family: Helvetica;
+}
+
+.order_details i{
+	color:#f4623a;
+	padding-right: 20px;
+}
+
+.order_details_description{
+	width: 1045px;
+	height:auto;
+	display: block;
+	background: #f4623a;
+	padding: 10px;
+}
+.order_details_description .paymentpending{
+	font-size: 20px;
+	font-family: Helvetica;
+	font-weight: bold;
+	color: #fff;
+}
+
+.order_details_description .content{
+	font-size: 18px;
+	font-family: Helvetica;
+	color: #fff;
+}
+
+.order_details_description img{
+	height: 100px;
+ 	position: absolute;
+ 	margin: -100px 880px;
+}
+
+.shipping_details{
+	width: 100%;
+	border-collapse: collapse;
+	background: #fff;
+}
+.shipping_details .truck{
+	-webkit-transform: scaleX(-1);
+ 	transform: scaleX(-1);
+ 	margin-left: -28px;
+ 	margin-right: 3px;
+}
+
+.shipping_details .shipping_details_label{
+	font-size: 20px;
+	font-family: Helvetica;
+	padding: 10px;
+	font-weight: bold;
+}
+.shipping_details .shipping_details_more{
+		text-align: right;
+		padding-right:20px;
+		font-weight: bold;
+		font-family: Helvetica;
+}
+.shipping_details .shipping_details_trackingnumber{
+	font-size: 18px;
+	font-family: Helvetica;
+	padding-left: 40px;
+	color: #808080;
+}
+.shipping_details .shipping_details_more a{
+	text-decoration: none;
+	color: #f4623a;
+}
+
+.shipping_details .shipping_details_status{
+	color: #f4623a;
+	font-size: 16px;
+	font-family: Helvetica;
+	padding-left:15px;
+}
+
+.shipping_details .dot{
+	margin-left: -10px;
+}
+
+.shipping_details .shipping_details_date{
+	color: #f4623a;
+	font-size: 16px;
+	font-family: Helvetica;
+	padding-left:15px;
+	text-align: right;
+	padding-right: 20px;
+}
+
+.delivery_details{
+	width: 100%;
+	border-collapse: collapse;
+	background: #fff;
+}
+
+.delivery_details .location{
+	padding-right: 0px;
+}
+
+.delivery_details .delivery_details_label{
+	font-size: 20px;
+	font-family: Helvetica;
+	padding: 10px;
+	font-weight: bold;
+}
+.delivery_details .view{
+	font-size: 18px;
+	font-family: Helvetica;
+	font-weight: bold;
+	text-align: right;
+}
+.delivery_details .view a{
+	text-decoration: none;
+	color: #f4623a;
+}
+
+.delivery_details .costumer_delivery_details{
+	padding:3px 40px;
+	font-size: 18px;
+	font-family: Helvetica;
+	color: #808080;
+}
+
+.payment_method{
+	margin-top: 2px;
+	width: 100%;
+	border-collapse: collapse;
+	background: #fff;
+}
+
+.payment_method .payment_method_label{
+	padding: 10px 25px;
+	font-size: 20px;
+	font-family: Helvetica;
+	font-weight: bold;
+}
+
+.payment_method .payment_method_detail{
+	padding:3px 40px;
+	font-size: 18px;
+	font-family: Helvetica;
+	color: #808080;
+}
+
+.purchase_product_details{
+	margin-top: 2px;
+	width: 100%;
+	border-collapse: collapse;
+	background: #fff;
+}
+.purchase_product_details .product_image{
+	text-align: center;
+}
+
+.purchase_product_details .product_image img{
+	width: 200px;
+	height: 200px;
+	margin-bottom: -4px;
+}
+
+.purchase_product_details .product_name{
+	padding-left: 10px;
+	font-size: 18px;
+	font-family: Helvetica;
+}
+
+.purchase_product_details .product_details{
+	padding-left: 10px;
+	font-size: 16px;
+	font-family: Helvetica;
+	color: #808080;
+}
+
+.purchase_product_details .product_quantity{
+	padding-right: 10px;
+	font-size: 16px;
+	font-family: Helvetica;
+	text-align: right;
+	width: 100px;
+}
+
+.purchase_product_details .product_price{
+	padding-right: 10px;
+	font-size: 16px;
+	font-family: Helvetica;
+	text-align: right;
+	color: #f4623a;
+}
+
+.purchase_payment_details{
+	margin-top: 2px;
+	width: 100%;
+	border-collapse: collapse;
+	background: #fff;
+}
+
+.purchase_payment_details .payment_label{
+	padding:3px 40px;
+	font-size: 16px;
+	font-family: Helvetica;
+	color: #000;
+}
+
+.purchase_payment_details .payment_details{
+	padding:3px 10px;
+	font-size: 16px;
+	font-family: Helvetica;
+	color: #000;
+	text-align: right;
+}
+
+.purchase_payment_details .total_payment{
+	color: #f4623a;
+	font-weight: bold;
+}
+
+
+.purchase_order_details{
+	margin-top: 2px;
+	width: 100%;
+	border-collapse: collapse;
+	background: #fff;
+}
+
+.purchase_order_details .payment_label{
+	padding:3px 40px;
+	font-size: 16px;
+	font-family: Helvetica;
+	color: #000;
+}
+
+.purchase_order_details .payment_details{
+	padding:3px 10px;
+	font-size: 16px;
+	font-family: Helvetica;
+	color: #000;
+	text-align: right;
+}
+.purchase_order_details .order_id{
+	color: #f4623a;
+	font-weight: bold;
+}
+
+
+.popup .overlay {
+  position:fixed;
+  top:0px;
+  left:0px;
+  width:100vw;
+  height:100vh;
+  background:rgba(0,0,0,.6);
+  z-index:1;
+  display:none;
+}
+
+.popup .content {
+  position:absolute;
+  margin-top: -300px;
+  left:50%;
+  transform:translate(-50%,-50%) scale(0);
+  background:#fff;
+  width:100%;
+  max-width:500px;
+  height:auto;
+  z-index:2;
+  text-align:center;
+  padding:20px;
+  box-sizing:border-box;
+  font-family:"Open Sans",sans-serif;
+}
+ 
+.popup .close-btn {
+  cursor:pointer;
+  padding-right: 20px;
+  right:0px;
+  top:20px;
+  width:100%;
+  height:30px;
+  color:#808080;
+  font-size:30px;
+  font-weight:600;
+  line-height:30px;
+  text-align:right;
+}
+.popup .close-btn:hover{
+	color:#f4623a;
+}
+.popup.active .overlay {
+  display:block;
+}
+ 
+.popup.active .content {
+  transition:all 300ms ease-in-out;
+  transform:translate(-50%,-50%) scale(1);
+}
+
+.popup .cancel_label{
+	color: #000;
+}
+.popup .cancelation_notice{
+	height: auto;
+	width: auto;
+	background: rgb(229, 232, 232);
+	text-align: left;
+	padding: 5px 5px;
+}
+
+.popup .cancelation_notice p{
+	font-size: 16px;
+	color: #f4623a;
+}
+.popup .content .radio{
+	text-align: left;
+	font-size: 16px;
+	color: #808080;
+}
+
+.popup .content .btn_confirm{
+	width: 100%;
+	background: #2f323a;
+	padding: 10px 50px;
+	font-size: 18px;
+	cursor: pointer;
+	border: none;
+	color: #fff;
+	margin-left: -0px;
+}
+.popup .content .btn_confirm:hover{
+	background:#f4623a;
+	color: #fff;
+}
+.order_options{
+	text-align: center;
+	background: #fff;
+	margin-top: 2px;
+}
+.order_options button{
+	width: 800px;
+	padding: 10px 5px;
+	margin: 10px 10px;
+	font-size: 18px;
+	cursor: pointer;
+	border: 0.5px solid #808080;
+	color: #f4623a;
+}
+
+.order_options i{
+	margin-right: -15px;
+	font-size: 20px;
+	color: #f4623a;
+}

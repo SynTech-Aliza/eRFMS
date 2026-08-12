@@ -1,0 +1,263 @@
+.main-container{
+	width: (100% - 250px);
+	margin-top: 70px;
+	margin-left: 250px;
+	padding: 15px;
+	background-size: cover;
+	transition: 0.3s;
+}
+
+.main-container{
+	width: (100% - 70px);
+	margin-left: 70px;
+}
+
+.main-container .card{
+	z-index: 1;
+	width: 83%;
+	height: 750px;
+	display: flex;
+	margin-top:35px;
+	margin-left: 15%;
+	border-radius: 10px;
+	background: #fff;
+	margin-bottom: 10px;
+
+}
+
+.main-container .sub-header-menu{
+	z-index: 1;
+	background: #fff;
+	width:90.6%;
+	height: 50px;
+	display: flex;
+	top:90px;
+	margin-left:155px;
+	cursor: default;
+}
+
+.main-container .sub-header-menu ul{
+	display: flex;
+	margin-left: 20px;
+}
+
+.main-container .sub-header-menu ul li a{
+	background: #fff;
+	color:#000;
+	margin: 0px 2px;
+	font-size: 16px;
+	width: 34px;
+	height: 34px;
+	text-align: center;
+	border-right: 1px solid gray;
+	padding-right:5px;
+	transition:0.3s;
+	transition-property: background, color;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.main-container .sub-header-menu a{
+	font-style: normal;
+}
+.main-container .sub-header-menu .active{
+	color: #4e4239;
+	text-align: center;
+}
+
+.main-container .card h2{
+	color:#4e4239;
+	text-align: center;
+	margin: 20px auto;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 25px;
+	font-style: normal;
+}
+.main-container .card form{
+	width: 200%;
+	margin: 10px 10px;
+
+}
+
+.search{
+	margin: 0px 50px;
+	display: block;
+	border:none;
+    border:1px solid #4e4239;
+    border-radius: 100px;
+    width: 500px;
+    height: 35px;
+    padding: 10px;
+    outline: none;
+    font-size: 15px;
+    text-align: center
+    background:#fff;
+    padding-right:33px;
+    position: relative;
+}
+
+.buttons{
+	position: absolute;
+	background: none;
+	width: 33px;
+	height: 33px;
+	text-align: center;
+    color: #4e4239;
+    border-radius: 100px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    margin:-34px 516px;
+}
+
+.buttons:hover{
+	color:#f4623a;
+}
+
+.main-container .card .table{
+	width: 73%;
+	height: 440px;
+	margin:140px 29px;
+	background: none;
+	border-radius: 10px;
+	position: absolute;
+}
+
+.table_view{
+	background: white;
+	width: 1107px;
+	border-collapse: collapse;
+}
+
+.table_view .error{
+	font-size: 20px;
+	font-weight: bold;
+	color: #f4623a;
+}
+.table_view th{
+	background: #f4623a;
+	color: #4e4239;
+}
+
+.table_view td{
+	background: #f5f5f5;
+	font-size: 100px;
+}
+.table_view td,.table_view th{
+  	padding:10px 10px;
+  	text-align: center;
+  	font-size:15px;
+  	font-style: normal;
+}
+.table_view a{
+	text-decoration: none;
+	color:black;
+	font-size:15px;
+}
+.controls{
+	text-align: center;
+	padding:10px 10px;
+	text-decoration: none;
+	color: #f4623a;
+	border:10px;
+	background: #deb887;
+	font-style: normal;
+}
+.controls a{
+	text-decoration:none;
+	color: rgb(89,73,63);
+}
+.icon{
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	position: relative;
+	z-index: 2;
+	transition: all 0.4s cubic-bezier(0.68,-0.55,0.265,1.55);
+}
+
+.icon span{
+	height: 30px;
+	width: 30px;
+	display: block;
+	background: #fff;
+	border-radius: 50%;
+	text-align: center;
+	box-shadow: 0 10px 10px rgb(0,0,0,0.1);
+	position: relative;
+	z-index: 2;
+}
+
+.icon span i{
+	font-size: 15px;
+	line-height: 30px;
+}
+.icon:hover span{
+	color: #fff;
+}
+.icon .tooltip{
+	position: absolute;
+	top:0px;
+	color: #fff;
+	background: #fff;
+	font-size: 12px;
+	padding: 5px 8px;
+	border-radius: 25px;
+	box-shadow: 0 10px 10px rgb(0,0,0,0.1);
+	opacity: 0;
+	pointer-events: none;
+	transition: all 0.4s cubic-bezier(0.68,-0.55,0.265,1.55);
+}
+
+.account .tooltip{
+	width: 120px;
+}
+
+.icon:hover .tooltip{
+	top:-30px;
+	opacity: 1;
+	pointer-events: auto;
+}
+
+.icon .tooltip:before{
+	position: absolute;
+	content: "";
+	height: 8px;
+	width: 8px;
+	background: none;
+	bottom: -4px;
+	left: 50%;
+	transform: translate(-50%) rotate(45deg);
+}
+
+.icon:hover span,
+.icon:hover .tooltip{
+	text-shadow: 0px -1px 0px rgb(0,0,0,0.4);
+}
+.account{
+	color:#1B4F72;
+}
+.activate{
+	color:#007E15;
+}
+.deactivate{
+	color:#BD0000;
+}
+.account:hover span,
+.account:hover .tooltip,
+.account:hover .tooltip:before{
+	background: #1B4F72;
+}
+
+.activate:hover span,
+.activate:hover .tooltip,
+.activate:hover .tooltip:before{
+	background: #007E15;
+}
+.deactivate:hover span,
+.deactivate:hover .tooltip,
+.deactivate:hover .tooltip:before{
+	background: #BD0000;
+}

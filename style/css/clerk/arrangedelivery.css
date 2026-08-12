@@ -1,0 +1,147 @@
+.main-container{
+	width: (100% - 250px);
+	padding: 15px;
+	background-size: cover;
+	transition: 0.3s;
+}
+
+.main-container{
+	width: (100% - 70px);
+}
+
+.main-container .card{
+	z-index: 1;
+	width: 70%;
+	display: flex;
+	margin: 10px auto;
+	background:#fff;
+}
+
+.arrange_delivery .content_label{
+	font-size: 20px;
+	padding-left: 0px;
+	color:#000;
+	font-family: Helvetica;
+	font-weight: bold;
+}
+.arrange_delivery i{
+	color:#f4623a;
+	padding-right: 20px;
+}
+
+.deliveryoption_btn{
+	margin-top: 30px;
+}
+
+.deliveryoption_btn .costumer{
+  	margin-right: -10px;
+}
+
+.deliveryoption_btn .truck{
+	-webkit-transform: scaleX(-1);
+  	transform: scaleX(-1);
+  	margin-left: -18px;
+  	margin-right: 10px;
+}
+
+.deliveryoption_btn .container{
+	border: 1px solid #bebebe;
+	border-radius: 5px;
+  	position: relative;
+  	padding: 10px 80px;
+ 	margin-right: 20px;
+  	cursor: pointer;
+  	font-size: 20px;
+  	font-family: Helvetica;
+}
+
+.deliveryoption_btn .container input {
+  	position: absolute;
+  	opacity: 0;
+  	cursor: pointer;
+  	height: 0;
+  	width: 0;
+}
+
+.deliveryoption_btn .checkmark {
+  	position: absolute;
+  	top: 9px;
+  	left: 233px;
+}
+
+.deliveryoption_btn .checkmark i{
+	position: absolute;
+	color: #fff;
+}
+
+.deliveryoption_btn .container input:checked ~ .checkmark i{
+  	color: #f4623a;
+}
+.deliveryoption_btn .checkmark:after {
+  	content: "";
+  	position: absolute;
+  	display: none;
+}	
+
+.delivery_details{
+	width: 1045px;
+	margin-top: 20px;
+	height: 100px;
+}
+
+.delivery_details .content{
+	font-size: 14px;
+	color: #808080;
+	padding: 10px;
+	font-family: Helvetica;
+}
+
+.delivery_details table{
+	border: 1px solid #808080;
+	width: 100%;
+	margin-top: -20px;
+	border-collapse: collapse;
+	font-family: Helvetica;
+	font-size: 14px;
+}
+
+.delivery_details tr th{
+	padding: 10px;
+	font-weight: normal;
+	text-align: left;
+	background: #bebebe;
+}
+.delivery_details tr td{
+	padding: 10px;
+}
+
+.delivery_details .pickuptime{
+	position: absolute;
+	padding: 5px;
+	width: 150px;
+	margin-top: -20px;
+	outline: none;
+	border: 1px solid #808080;
+	border-radius: 5px;
+	text-align: left;
+	padding-left: 10px;
+}
+
+.button_options{
+	margin-top: 100px;
+	margin-left: -5px;
+}
+.button_options button{
+	padding: 8px 20px;
+	font-size: 14px;
+	font-family: Helvetica;
+	border: 1px solid #808080;
+	border-radius: 5px;
+	margin: 5px;
+	cursor: pointer;
+}
+
+.button_options .arrange_delivery{
+	background: #f4623a;
+	color: #fff;
+}

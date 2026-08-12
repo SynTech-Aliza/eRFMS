@@ -1,0 +1,127 @@
+
+.main-container{
+	width: (100% - 250px);
+	padding: 15px;
+	background-size: cover;
+	transition: 0.3s;
+}
+
+.main-container{
+	width: (100% - 70px);
+}
+
+.main-container .card{
+	z-index: 1;
+	width: 70%;
+	display: flex;
+	margin: 10px auto;
+	background:#fff;
+}
+
+.add_address p{
+	font-size: 20px;
+	padding-left: 20px;
+	color:#000;
+	font-family: Helvetica;
+}
+
+.add_address .edit{
+	color:#f4623a;
+	padding-right: 30px;
+}
+
+.user_details table{
+	width: 832px;
+	position: relative;
+	margin: 20px 100px;
+	border-collapse: collapse;
+	border: none;
+	font-family: Helvetica;
+	font-size: 15px;
+}
+
+.user_details td{
+	padding: 10px 0px 10px 0px;
+}
+
+.user_details .right{
+	text-align: right;
+	padding-right: 15px;
+}
+
+
+.user_details .left{
+	padding-left: 15px;;
+}
+
+.arrow{
+	border: solid black;
+	border-width: 0 3px 3px 0;
+	display: inline-block;
+	padding: 3.5px;
+	margin-left: 5px;
+	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+}
+
+.form{
+	background: #e2efe1;
+}
+
+.view_main{
+	background: #e2efe1;
+	border-radius: 3px;
+	padding: 15px 15px 5px 15px;
+	width: 1043px;
+}
+
+.view_list{
+	border: 1px solid #fff;
+	margin-bottom: 10px;
+}
+
+.view_list .content{
+	font-size: 17px;
+	font-weight: 200;
+	font-family: Arial;
+	margin: 10px 10px;
+}
+
+
+.view_list a{
+	color: #f4623a;
+}
+
+.view_list .status{
+	position: absolute;
+	margin-left: 900px;
+	margin-top: -30px;
+}
+.view_list .name{
+	color: #000;
+}
+
+.view_list .address{
+	color: #808080;
+	font-size: 15px;
+}
+
+.view_wrap a{
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.addnewaddress{
+	background: #fff;
+	text-decoration: none;
+	text-align: center;
+	padding: 10px 10px;
+	font-size: 17px;
+	font-family: Arial;
+	color: #f4623a;
+}
+
+.addnewaddress a{
+	text-decoration: none;
+	color: #f4623a;
+}

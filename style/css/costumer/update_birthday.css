@@ -1,0 +1,60 @@
+
+.main-container{
+	width: (100% - 250px);
+	padding: 15px;
+	background-size: cover;
+	transition: 0.3s;
+}
+
+.main-container{
+	width: (100% - 70px);
+}
+
+.main-container .card{
+	z-index: 1;
+	width: 70%;
+	display: flex;
+	margin: 10px auto;
+	background:#fff;
+}
+
+.edit_birthday p{
+	font-size: 20px;
+	padding-left: 20px;
+	color:#000;
+	font-family: Helvetica;
+}
+
+.edit_birthday .edit{
+	color:#f4623a;
+	padding-right: 30px;
+}
+
+.edit_birthday button{
+	text-align: center;
+	background:none;
+	color: #f4623a;
+	border: none;
+	font-size: 20px;
+	cursor: pointer;
+	position: absolute;
+	margin: -44.5px 955px;
+}
+
+.form_birthday{
+	display: block;
+	background: #e2efe1;
+	height: 55px;
+	width: 1043px;
+}
+
+.form_birthday input{
+	margin: 10px 15px;
+	height: 30px;
+	outline:none;
+	padding-left: 10px;
+	font-size: 15px;
+	border: none;
+	width: 200px;
+	font-family: Helvetica;
+}

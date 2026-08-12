@@ -1,0 +1,68 @@
+
+.main-container{
+	width: (100% - 250px);
+	padding: 15px;
+	background-size: cover;
+	transition: 0.3s;
+}
+
+.main-container{
+	width: (100% - 70px);
+}
+
+.main-container .card{
+	z-index: 1;
+	width: 70%;
+	display: flex;
+	margin: 10px auto;
+	background:#fff;
+}
+
+.account_setting p{
+	font-size: 20px;
+	padding-left: 20px;
+	color:#000;
+	font-family: Helvetica;
+}
+
+.account_setting i{
+	color:#f4623a;
+	padding-right: 20px;
+}
+
+.my_account .label{
+	font-size: 15px;
+	background: #e2efe1;
+	padding: 10px 20px;
+	width: 991px;
+	font-family: Helvetica;
+	color: gray;
+}
+
+.my_account p{
+	font-size: 15px;
+}
+
+.my_account a{
+	text-decoration: none;
+	color: #000;
+}
+
+.support .label{
+	font-size: 15px;
+	background: #e2efe1;
+	padding: 10px 20px;
+	width: 991px;
+	color: gray;
+}
+
+.support p{
+	font-size: 15px;
+	color: #000;
+	font-family: Helvetica;
+}
+
+.support a{
+	text-decoration: none;
+	color: #000;
+}

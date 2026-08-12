@@ -1,0 +1,106 @@
+.main-container{
+	width: (100% - 250px);
+	margin-top: 70px;
+	margin-left: 250px;
+	padding: 15px;
+	background-size: cover;
+	height: 202vh;
+	transition: 0.3s;
+}
+
+.main-container{
+	width: (100% - 70px);
+	margin-left: 70px;
+}
+
+.main-container .card{
+	z-index: 1;
+	width: 83%;
+	height: 100%;
+	display: flex;
+	margin-top:2%;
+	margin-left: 15%;
+}
+
+.main-container .sub-header-menu{
+	z-index: 1;
+	background: #fff;
+	width:90.6%;
+	height: 50px;
+	display: flex;
+	top:90px;
+	margin-left:155px;
+	cursor: default;
+}
+
+.main-container .sub-header-menu ul{
+	display: flex;
+	margin-left: 20px;
+}
+
+.main-container .sub-header-menu ul li a{
+	background: #fff;
+	color:#000;
+	margin: 0px 2px;
+	font-size: 16px;
+	width: 34px;
+	height: 34px;
+	text-align: center;
+	border-right: 1px solid gray;
+	padding-right:5px;
+	transition:0.3s;
+	transition-property: background, color;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.main-container .sub-header-menu .active{
+	color: #4e4239;
+	text-align: center;
+}
+
+.chart1{
+	margin-left: 7px;
+	margin-top: 10px;
+	background: #fff;
+	height: 320px;
+	border-radius: 10px;
+}
+.chart_1{
+	padding: 10px 10px;
+}
+
+.chart2{
+	background: #fff;
+	height: 320px;
+	margin-left: 10px;
+	margin-top: 10px;
+	border-radius: 10px;
+}
+
+.chart_2{
+	padding: 10px 10px;
+}
+
+.chart3{
+	margin-top:22.5%;
+	background: #fff;
+	height: 520px;
+	position: absolute;
+	margin-left: 5px;
+	border-radius: 10px;
+}
+
+.chart_3{
+	padding: 10px 10px;
+}
+.chart4{
+	margin-top:57.5%;
+	background: #fff;
+	height: 520px;
+	position: absolute;
+	margin-left: 5px;
+	border-radius: 10px;
+}
+
+.chart_4{
+	padding: 10px 10px;
+}
